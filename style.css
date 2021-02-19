@@ -1,0 +1,53 @@
+*,*::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    padding: 51px;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+.flexContainer{
+    display: flex;
+    justify-content: center;
+}
+.contributionsContainer{
+    max-width: 420px;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(14%,1fr));
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 400%;
+}
+.box{
+    background-color: rgb(235, 237, 240);
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    border: solid rgb(121, 121, 121) 2px;
+    font-size: 5px;
+   
+}
+.box:hover{
+    border: solid rgb(143, 143, 143) 2px;
+    box-shadow: 0px 0px 5px 1px rgba(121, 121, 121, 0.356);
+}
+.day, .day:hover{
+    margin-bottom: -15px;
+    background-color: transparent;
+    border: transparent solid 2px;
+    box-shadow: transparent 0px 0px 0px 0px;
+}
+
+
